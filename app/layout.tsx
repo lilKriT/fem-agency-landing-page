@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${barlow.variable} ${fraunces.variable} antialiased`}>
-        {children}
+        <main>{children}</main>
       </body>
     </html>
   );

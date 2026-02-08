@@ -1,11 +1,13 @@
 import Image from "next/image";
+import Hero from "./sections/Hero";
+import Features from "./sections/Features";
 
 export default function Home() {
   return (
     <div className="">
+      {/* <Hero /> */}
+      <Features />
       <p>About Services Projects Contact</p>
-
-      <p>We are creatives</p>
 
       <p>Transform your brand</p>
 
