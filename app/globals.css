@@ -10,6 +10,25 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* Font size 18px */
+  --text-base: 1.125rem;
+
+  /* Primary colors */
+  --color-red-400: hsl(7, 99%, 70%);
+  --color-yellow-500: hsl(51, 100%, 49%);
+  /* graphic design text: */
+  --color-green-800: hsl(167, 40%, 24%);
+  /* photography text: */
+  --color-blue-800: hsl(198, 62%, 26%);
+  /* footer: */
+  --color-green-500: hsl(167, 34%, 41%);
+
+  /* Neutral colors*/
+  --grey-950: hsl(212, 27%, 19%);
+  --grey-600: hsl(213, 9%, 39%);
+  --grey-550: hsl(232, 10%, 55%);
+  --grey-400: hsl(210, 4%, 67%);
 }
 
 @media (prefers-color-scheme: dark) {
