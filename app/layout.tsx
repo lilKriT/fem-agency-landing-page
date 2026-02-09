@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Barlow, Fraunces } from "next/font/google";
 import "./globals.css";
 import Footer from "./sections/Footer";
+import Header from "./sections/Header";
 
 const barlow = Barlow({
   variable: "--font-barlow",
@@ -28,6 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${barlow.variable} ${fraunces.variable} antialiased`}>
+        <Header />
         <main>{children}</main>
         <Footer />
       </body>

@@ -7,13 +7,10 @@ import Gallery from "./sections/Gallery";
 export default function Home() {
   return (
     <div className="">
-      {/* <Hero /> */}
-      {/* <Features /> */}
-      {/* <Testimonials /> */}
+      <Hero />
+      <Features />
+      <Testimonials />
       <Gallery />
-      <p>About Services Projects Contact</p>
-
-      <p>About Services Projects Contact</p>
     </div>
   );
 }
