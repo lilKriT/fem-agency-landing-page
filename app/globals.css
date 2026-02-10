@@ -33,7 +33,7 @@
 }
 
 * {
-  @apply outline outline-red-500;
+  /* @apply outline outline-red-500; */
 }
 
 body {

@@ -9,8 +9,8 @@ const Features = () => {
         <div className="bg-[url('/desktop/image-transform.jpg')] bg-cover bg-center lg:order-2 aspect-square lg:aspect-auto"></div>
 
         {/* Transform */}
-        <div className="flex justify-end items-center py-12 lg:py-36 pr-24 lg:order-1">
-          <div className="max-w-prose flex flex-col justify-center items-start gap-8 ml-16">
+        <div className="flex justify-center lg:justify-end items-center py-12 lg:py-36 lg:pr-24 lg:order-1">
+          <div className="max-w-prose flex flex-col justify-center items-center lg:items-start gap-8 mx-4 lg:ml-16 text-center lg:text-left">
             <h2 className="text-5xl font-black">Transform your brand</h2>
 
             <p className="text-gray-400">
@@ -32,8 +32,8 @@ const Features = () => {
         <div className="bg-[url('/desktop/image-stand-out.jpg')] bg-cover bg-center lg:order-3 aspect-square lg:aspect-auto"></div>
 
         {/* Stand out */}
-        <div className="flex justify-start items-center py-12 lg:py-36 pl-24 lg:order-4">
-          <div className="max-w-prose flex flex-col justify-center items-start gap-8 mr-16">
+        <div className="flex justify-start items-center py-12 lg:py-36 lg:pl-24 lg:order-4">
+          <div className="max-w-prose flex flex-col justify-center items-center lg:items-start gap-8 mx-4 lg:mr-16 text-center lg:text-left">
             <h2 className="text-5xl font-black">
               Stand out to the right audience
             </h2>
@@ -54,9 +54,11 @@ const Features = () => {
         </div>
 
         {/* Cherries / Graphic design */}
-        <div className="bg-[url('/desktop/image-graphic-design.jpg')] bg-cover bg-top lg:order-5 flex flex-col justify-end items-center gap-8 p-16">
-          <h2 className="text-4xl font-black text-green-800">Graphic design</h2>
-          <p className="text-green-800 text-center max-w-[50ch] text-balance">
+        <div className="bg-[url('/desktop/image-graphic-design.jpg')] bg-cover bg-top lg:order-5 flex flex-col justify-end items-center gap-8 p-16 text-center ">
+          <h2 className="text-4xl font-black text-green-800 mt-68 lg:mt-0">
+            Graphic design
+          </h2>
+          <p className="text-green-800 max-w-[50ch] text-balance">
             Great design makes you memorable. We deliver artwork that
             underscores your brand message and captures potential clients’
             attention.
@@ -65,7 +67,9 @@ const Features = () => {
 
         {/* Orange / Photography */}
         <div className="bg-[url('/desktop/image-photography.jpg')] bg-cover bg-top lg:order-6 flex flex-col justify-end items-center gap-8 p-16">
-          <h2 className="text-4xl font-black text-blue-800">Photography</h2>
+          <h2 className="text-4xl font-black text-blue-800 mt-68 lg:mt-0">
+            Photography
+          </h2>
           <p className="text-blue-800 text-center max-w-[50ch] text-balance">
             Increase your credibility by getting the most stunning, high-quality
             photos that improve your business image.
