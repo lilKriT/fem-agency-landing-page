@@ -6,7 +6,7 @@ const Features = () => {
     <section>
       <div className="grid grid-cols-1 lg:grid-cols-2 auto-rows-min lg:auto-rows-[42rem]">
         {/* Egg */}
-        <div className="bg-[url('/desktop/image-transform.jpg')] bg-cover bg-center lg:order-2 aspect-square lg:aspect-auto"></div>
+        <div className="bg-[url('/mobile/image-transform.jpg')] lg:bg-[url('/desktop/image-transform.jpg')] bg-cover bg-center lg:order-2 aspect-square lg:aspect-auto"></div>
 
         {/* Transform */}
         <div className="flex justify-center lg:justify-end items-center py-12 lg:py-36 lg:pr-24 lg:order-1">
@@ -29,7 +29,7 @@ const Features = () => {
         </div>
 
         {/* Cup */}
-        <div className="bg-[url('/desktop/image-stand-out.jpg')] bg-cover bg-center lg:order-3 aspect-square lg:aspect-auto"></div>
+        <div className="bg-[url('/mobile/image-stand-out.jpg')] lg:bg-[url('/desktop/image-stand-out.jpg')] bg-cover bg-center lg:order-3 aspect-square lg:aspect-auto"></div>
 
         {/* Stand out */}
         <div className="flex justify-start items-center py-12 lg:py-36 lg:pl-24 lg:order-4">
@@ -54,7 +54,7 @@ const Features = () => {
         </div>
 
         {/* Cherries / Graphic design */}
-        <div className="bg-[url('/desktop/image-graphic-design.jpg')] bg-cover bg-top lg:order-5 flex flex-col justify-end items-center gap-8 p-16 text-center ">
+        <div className="bg-[url('/mobile/image-graphic-design.jpg')] lg:bg-[url('/desktop/image-graphic-design.jpg')] bg-cover bg-top lg:order-5 flex flex-col justify-end items-center gap-8 p-16 text-center ">
           <h2 className="text-4xl font-black text-green-800 mt-68 lg:mt-0">
             Graphic design
           </h2>
@@ -66,7 +66,7 @@ const Features = () => {
         </div>
 
         {/* Orange / Photography */}
-        <div className="bg-[url('/desktop/image-photography.jpg')] bg-cover bg-top lg:order-6 flex flex-col justify-end items-center gap-8 p-16">
+        <div className="bg-[url('/mobile/image-photography.jpg')] lg:bg-[url('/desktop/image-photography.jpg')] bg-cover bg-top lg:order-6 flex flex-col justify-end items-center gap-8 p-16">
           <h2 className="text-4xl font-black text-blue-800 mt-68 lg:mt-0">
             Photography
           </h2>

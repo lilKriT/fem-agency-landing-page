@@ -14,6 +14,8 @@ const Header = () => {
             className="text-white fill-current"
           />
         </svg>
+
+        {/* Desktop menu */}
         <nav className="">
           <ul className="flex gap-4">
             <li>
