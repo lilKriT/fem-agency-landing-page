@@ -34,16 +34,16 @@ const testimonials: Testimonial[] = [
 const Testimonials = () => {
   return (
     <section className="min-h-dvh flex justify-center items-center">
-      <div className="max-w-6xl flex flex-col justify-center items-center gap-16">
-        <h2 className="text-3xl font-black tracking-widest text-gray-400">
+      <div className="max-w-6xl flex flex-col justify-center items-center gap-16 my-16">
+        <h2 className="text-2xl md:text-3xl font-black tracking-widest text-gray-400 text-center">
           Client testimonials
         </h2>
 
-        <div className="flex justify-center items-center gap-8">
+        <div className="flex flex-col lg:flex-row justify-center items-center gap-16 lg:gap-8">
           {testimonials.map((t, idx) => (
             <div
               key={idx}
-              className="flex flex-col justify-start items-center text-center gap-16 text-balance"
+              className="flex flex-col justify-start items-center text-center gap-8 lg:gap-16 text-balance"
             >
               <Image
                 src={t.image}

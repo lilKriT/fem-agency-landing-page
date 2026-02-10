@@ -4,7 +4,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="flex justify-center items-center bg-[hsl(167,44%,70%)]">
-      <div className="flex flex-col justify-center items-center my-16">
+      <div className="flex flex-col justify-center items-center my-16 mx-8">
         <svg
           height="36"
           viewBox="0 0 124 24"
@@ -17,7 +17,7 @@ const Footer = () => {
         </svg>
 
         {/* Links */}
-        <div className="flex justify-center items-center gap-16 text-green-500 mt-8">
+        <div className="flex justify-center items-center gap-8 lg:gap-16 text-green-500 mt-8">
           <Link href={"/"}>About</Link>
           <Link href={"/"}>Services</Link>
           <Link href={"/"}>Projects</Link>

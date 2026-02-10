@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="fixed top-0 w-full backdrop-blur-sm bg-black/10">
+    <header className="fixed top-0 w-full bg-[rgb(61,190,255)]">
       <div className="flex justify-between items-center pt-8 mx-8 mb-2">
         <svg
           height="36"
