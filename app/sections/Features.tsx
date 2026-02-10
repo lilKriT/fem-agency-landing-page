@@ -21,7 +21,7 @@ const Features = () => {
 
             <Link
               href={"/"}
-              className="text-2xl font-serif px-2 after:h-2 after:w-[calc(100%+1rem)] after:bg-yellow-500 after:block after:relative after:-left-2 after:right-8 after:-top-3 after:-z-10 after:opacity-30 after:rounded-full"
+              className="text-2xl font-serif px-2 after:h-2 after:w-[calc(100%+1rem)] after:bg-yellow-500 after:block after:relative after:-left-2 after:right-8 after:-top-3 after:-z-10 after:opacity-30 after:rounded-full hover:after:bg-yellow-800 motion-safe:after:duration-300 ease-in-out"
             >
               Learn more
             </Link>
@@ -46,7 +46,7 @@ const Features = () => {
 
             <Link
               href={"/"}
-              className="text-2xl font-serif px-2 after:h-2 after:w-[calc(100%+1rem)] after:bg-red-400 after:block after:relative after:-left-2 after:right-8 after:-top-3 after:-z-10 after:opacity-30 after:rounded-full"
+              className="text-2xl font-serif px-2 after:h-2 after:w-[calc(100%+1rem)] after:bg-red-400 after:block after:relative after:-left-2 after:right-8 after:-top-3 after:-z-10 after:opacity-30 after:rounded-full hover:after:bg-red-800 motion-safe:after:duration-300 ease-in-out"
             >
               Learn more
             </Link>

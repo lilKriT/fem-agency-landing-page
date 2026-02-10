@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+const navLinks: { href: string; label: string }[] = [];
+
 const Header = () => {
   return (
     <header className="fixed top-0 w-full bg-[rgb(61,190,255)]">
@@ -16,7 +18,7 @@ const Header = () => {
         </svg>
 
         {/* Desktop menu */}
-        <nav className="">
+        <nav className="invisible lg:visible">
           <ul className="flex gap-4">
             <li>
               <Link
@@ -43,12 +45,14 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <button className="px-4 py-2 text-[1rem] text-white border-0">
+              <button className="px-8 font-serif uppercase py-2 text-[1rem] text-black border-0 bg-white rounded-full hover:cursor-pointer hover:bg-blue-300 hover:text-white motion-safe:duration-150 ease-in-out">
                 Contact
               </button>
             </li>
           </ul>
         </nav>
+
+        {/* Mobile menu */}
       </div>
     </header>
   );
