@@ -62,7 +62,7 @@ const Header = () => {
         <button
           onClick={() => setOpen(!open)}
           aria-label="Open Menu"
-          className="cursor-pointer"
+          className="cursor-pointer lg:hidden"
         >
           <svg
             viewBox="0 0 24 18"
@@ -72,7 +72,7 @@ const Header = () => {
             <path
               d="M24 16v2H0v-2h24zm0-8v2H0V8h24zm0-8v2H0V0h24z"
               fill="#FFF"
-              fill-rule="evenodd"
+              fillRule="evenodd"
             />
           </svg>
         </button>
